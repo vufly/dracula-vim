@@ -31,6 +31,7 @@ hi! link typescriptGlobal                 Type
 hi! link typescriptGlobalMethod           DraculaCyan
 hi! link typescriptGlobalObjects          Type
 hi! link typescriptIdentifier             DraculaPurpleItalic
+hi! link typescriptIdentifierName         DraculaCyanItalic
 hi! link typescriptInterfaceHeritage      Type
 hi! link typescriptInterfaceName          Type
 hi! link typescriptInterpolationDelimiter Keyword
