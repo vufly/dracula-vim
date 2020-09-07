@@ -36,7 +36,7 @@ hi! link typescriptInterfaceName          Type
 hi! link typescriptInterpolationDelimiter Keyword
 hi! link typescriptKeywordOp              Keyword
 hi! link typescriptLogicSymbols           Operator
-hi! link typescriptMember                 Identifier
+hi! link typescriptMember                 DraculaGreen
 hi! link typescriptMemberOptionality      Special
 hi! link typescriptObjectColon            Special
 hi! link typescriptObjectLabel            Identifier
