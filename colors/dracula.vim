@@ -232,7 +232,7 @@ hi! link Question     DraculaFgBold
 hi! link Search       DraculaSearch
 call s:h('SignColumn', s:comment)
 hi! link TabLine      DraculaBoundary
-hi! link TabLineFill  DraculaBgDarker
+hi! link TabLineFill  DraculaBgDark
 hi! link TabLineSel   Normal
 hi! link Title        DraculaGreenBold
 hi! link VertSplit    DraculaBoundary
@@ -250,6 +250,9 @@ call s:h('Conceal', s:cyan, s:none)
 " Neovim uses SpecialKey for escape characters only. Vim uses it for that, plus whitespace.
 if has('nvim')
   hi! link SpecialKey DraculaRed
+  hi! link LspReferenceText DraculaSelection
+  hi! link LspReferenceRead DraculaSelection
+  hi! link LspReferenceWrite DraculaSelection
   hi! link LspDiagnosticsDefaultInformation DraculaCyan
   hi! link LspDiagnosticsDefaultHint DraculaCyan
   hi! link LspDiagnosticsDefaultError DraculaError
@@ -259,7 +262,7 @@ if has('nvim')
   hi! link LspDiagnosticsUnderlineInformation DraculaInfoLine
   hi! link LspDiagnosticsUnderlineWarning DraculaWarnLine
 else
-  hi! link SpecialKey DraculaSubtle
+  hi! link SpecialKey DraculaPink
 endif
 
 hi! link Comment DraculaComment
